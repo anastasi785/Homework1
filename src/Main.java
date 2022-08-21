@@ -49,6 +49,30 @@ public class Main {
         double averageAmmountOfDays = (days1+days2)/2;
         System.out.println("Среднее кол-во дней для потери веса " + averageAmmountOfDays + " дней");
 
+        // Задание 5
+        int mashaSalary = 67760;
+        int denSalary = 83690;
+        int krisSalary = 76230;
+        int mashaSalaryGrows = (mashaSalary + (mashaSalary/100*10))*12;
+        int mashaSalaryBefore = mashaSalary * 12;
+        System.out.println("Машин предыд. заработок " + mashaSalaryBefore + " руб. в год");
+        System.out.println("Маша теперь получает " + mashaSalaryGrows + " руб. в год");
+        int mashaDifference = mashaSalaryGrows - mashaSalaryBefore;
+        System.out.println("Разница в заработке Маши до и после повышения "+ mashaDifference + " руб в год");
+
+        int denSalaryGrows = (denSalary + (denSalary/100*10))*12;
+        int denSalaryBefore = denSalary * 12;
+        System.out.println("Предыд. заработок Дениса " + denSalaryBefore + " руб. в год");
+        System.out.println("Денис теперь получает " + denSalaryGrows + " руб. в год");
+        int denDifference = denSalaryGrows - denSalaryBefore;
+        System.out.println("Разница в заработке Дениса до и после повышения "+ denDifference + " руб в год");
+
+        int krisSalaryGrows = (krisSalary + (krisSalary/100*10))*12;
+        int krisSalaryBefore = krisSalary * 12;
+        System.out.println("Предыд. заработок Кристины " + krisSalaryBefore + " руб. в год");
+        System.out.println("Кристина теперь получает " + krisSalaryGrows + " руб. в год");
+        int krisDifference = krisSalaryGrows - krisSalaryBefore;
+        System.out.println("Разница в заработке Кристины до и после повышения "+ krisDifference + " руб в год");
 
 
 
