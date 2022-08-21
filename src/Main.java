@@ -41,6 +41,16 @@ public class Main {
         short losePerDay1 = 500;
         int needToLoseInGramms = needToLose*1000;
         System.out.println("Вес в граммах, который необходимо скинуть "+ needToLoseInGramms + " гр");
+        double days1 = needToLoseInGramms/losePerDay;
+        double days2 = needToLoseInGramms/losePerDay1;
+
+        System.out.println("количество дней при потере 250 гр/день " + days1 + " дней" );
+        System.out.println("количество дней при потере 500 гр/день " + days2 + " дней");
+        double averageAmmountOfDays = (days1+days2)/2;
+        System.out.println("Среднее кол-во дней для потери веса " + averageAmmountOfDays + " дней");
+
+
+
 
     }
 }
