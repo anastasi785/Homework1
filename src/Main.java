@@ -75,6 +75,24 @@ public class Main {
         System.out.println("Разница в заработке Кристины до и после повышения "+ krisDifference + " руб в год");
 
 
+        int lP=23;
+        int aS=27;
+        int eA=30;
+        int sheetsPapers=480;
+        int ammountsOfPaperPerPerson= sheetsPapers/(lP+aS+eA);
+        System.out.println("На каждого ученика расчитано "+ ammountsOfPaperPerPerson+ " листов бумаги");
+        
+        int perMin=16/2;
+        int per20Min= 20*perMin;
+        System.out.println("per20Min = " + per20Min);
+        int perDay=60*(24*perMin);
+        System.out.println("perDay = " + perDay);
+        int per3Days=perDay*3;
+        System.out.println("per3Days = " + per3Days);
+        int perMonth=perDay*31;
+        System.out.println("perMonth = " + perMonth);
+
+
 
     }
 }
