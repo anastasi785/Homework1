@@ -10,17 +10,45 @@ public class Main {
         double g = 3.8974;
         boolean aIsTrue = a > 3;
         char table = 40;
-        System.out.println(aIsTrue);
-        //Задание 2
-        double boxer1 = 78.2;
-        double boxer2 = 82.7;
-        double weightOfAllBoxers = boxer1 + boxer2;
-        double weightDifference = boxer2 - boxer1;
+        System.out.println("Значение переменной a c  типом byte равно " + a);
+        System.out.println("Значение переменной b c  типом short равно " + b);
 
-        System.out.println("Общий вес боксеров " + weightOfAllBoxers + " кг");
-        System.out.println("Разница в весе боксёров составляет " + weightDifference + " кг");
+        System.out.println("Значение переменной c c  типом int равно " + c);
+        System.out.println("Значение переменной d c  типом long равно " + d);
+        System.out.println("Значение переменной h c  типом float равно " + h);
+        System.out.println("Значение переменной g c  типом double равно " + g);
+        System.out.println("Значение переменной aIsTrue c  типом boolean равно " + aIsTrue);
+        System.out.println("Значение переменной table c  типом char равно " + table);
+
+        //Задание 2
+
+        double m =27.12;
+        long n= 987678965549l;
+        byte o=2;
+        short p= 786;
+        boolean oIsFalse = o>2;
+        short r=569;
+        short s= -159;
+        short t = 27897;
+        byte y= 67;
+
+
+
+
 
         // Задание 3
+        
+        int cans=120;
+        int cansOfWhitePaint=2;
+        int cansOfBrownPaint=4;
+        int cansPerCabinet=cansOfWhitePaint+cansOfBrownPaint;
+        int ammountOfCabinets=cans/cansPerCabinet;
+        System.out.println("ammountsOfCabinets = " + ammountOfCabinets);
+        int ammountsOfWhite= ammountOfCabinets*cansOfWhitePaint;
+        System.out.println("В школе где 20 классов нужно " + ammountsOfWhite + " банок белой краски");
+        int ammountsOfBrown=ammountOfCabinets*cansOfBrownPaint;
+        System.out.println("В школе где 20 классов нужно " + ammountsOfBrown + " банок коричневой краски");
+
 
         byte banana = 5;
         byte milk = 2;
@@ -39,7 +67,7 @@ public class Main {
         byte needToLose = 7;
         short losePerDay = 250;
         short losePerDay1 = 500;
-        int needToLoseInGramms = needToLose*1000;
+        double needToLoseInGramms = needToLose*1000;
         System.out.println("Вес в граммах, который необходимо скинуть "+ needToLoseInGramms + " гр");
         double days1 = needToLoseInGramms/losePerDay;
         double days2 = needToLoseInGramms/losePerDay1;
